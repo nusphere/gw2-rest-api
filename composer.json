@@ -1,0 +1,29 @@
+{
+  "name": "nusphere/gw2-rest-api",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sebastian Hopfe",
+      "email": "nusphere83@gmail.com"
+    }
+  ],
+  "config": {
+
+  },
+  "require": {
+    "php": "~8.2 || ~8.3"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "NuSphere\\Gw2RestApi\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "NuSphere\\Gw2RestApi\\Tests\\": "tests"
+    }
+  }
+}
